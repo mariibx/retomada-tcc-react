@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#560000,#8b0000,#c1121f);
+    min-height:100vh;
+    color:#222;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+.app{
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.page{
+    width:90%;
+    max-width:1100px;
+    margin:50px auto;
+}
+
+.card{
+    background:white;
+    border-radius:22px;
+    padding:45px;
+    box-shadow:0 15px 45px rgba(0,0,0,.25);
+    animation:fade .6s;
+}
+
+@keyframes fade{
+
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+.titulo{
+
+    color:#780000;
+    font-size:38px;
+    margin-bottom:15px;
+
+}
+
+.subtitulo{
+
+    color:#555;
+    margin-bottom:35px;
+    font-size:18px;
+
+}
+
+.secao{
+
+    margin-top:35px;
+
+}
+
+.secao h2{
+
+    color:#8b0000;
+    margin-bottom:15px;
+    border-left:6px solid #c1121f;
+    padding-left:12px;
+
+}
+
+.secao p{
+
+    line-height:1.8;
+    text-align:justify;
+    color:#444;
+
+}
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:25px;
+
+}
+
+.box{
+
+    background:#fff8f8;
+    border-radius:15px;
+    padding:25px;
+    border:1px solid #ffd6d6;
+    transition:.3s;
+
+}
+
+.box:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.box h3{
+
+    color:#8b0000;
+    margin-bottom:10px;
+
+}
+
+.box p{
+
+    color:#555;
+    line-height:1.6;
+
+}
+
+.lista{
+
+    margin-top:20px;
+
+}
+
+.lista li{
+
+    background:#fff6f6;
+    margin-bottom:12px;
+    padding:14px 18px;
+    border-left:5px solid #c1121f;
+    border-radius:10px;
+    transition:.3s;
+
+}
+
+.lista li:hover{
+
+    transform:translateX(5px);
+
+}
+
+.botao{
+
+    display:inline-block;
+    margin-top:35px;
+    background:#a40000;
+    color:white;
+    padding:15px 35px;
+    border-radius:40px;
+    font-weight:600;
+    transition:.3s;
+
+}
+
+.botao:hover{
+
+    background:#780000;
+    transform:scale(1.05);
+
+}
+
+footer{
+
+    margin-top:60px;
+    padding:30px;
+    text-align:center;
+    color:white;
+
+}
