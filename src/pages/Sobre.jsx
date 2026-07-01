@@ -82,8 +82,6 @@ function Sobre() {
 
           <ul className="lista">
 
-            <li>📸 Reconhecimento de alimentos por fotografia.</li>
-
             <li>🤖 Inteligência Artificial para sugestões nutricionais.</li>
 
             <li>📈 Gráficos de evolução alimentar.</li>

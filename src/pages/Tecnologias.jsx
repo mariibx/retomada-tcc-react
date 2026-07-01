@@ -44,7 +44,7 @@ function Tecnologias() {
           <div className="box">
             <h3>🤖 Inteligência Artificial</h3>
             <p>
-              Utilizada para identificar alimentos através de imagens e fornecer sugestões nutricionais personalizadas.
+              Utilizada para fornecer sugestões nutricionais personalizadas.
             </p>
           </div>
 

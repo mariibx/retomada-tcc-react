@@ -1,7 +1,6 @@
 function Funcionalidades() {
   return (
     <div className="page">
-
       <section className="card">
 
         <h1 className="titulo">
@@ -13,16 +12,6 @@ function Funcionalidades() {
         </p>
 
         <div className="grid">
-
-          <div className="box">
-            <h3>📸 Reconhecimento por Imagem</h3>
-
-            <p>
-              O usuário poderá fotografar sua refeição e a Inteligência
-              Artificial identificará os alimentos presentes, estimando
-              carboidratos, calorias e outras informações nutricionais.
-            </p>
-          </div>
 
           <div className="box">
             <h3>🥗 Diário Alimentar</h3>
@@ -55,8 +44,8 @@ function Funcionalidades() {
             <h3>🔔 Lembretes</h3>
 
             <p>
-              Notificações para registrar refeições, consumir água e
-              acompanhar as metas diárias.
+              Notificações para registrar refeições, lembrar da ingestão
+              de água e acompanhar as metas diárias.
             </p>
           </div>
 
@@ -64,15 +53,24 @@ function Funcionalidades() {
             <h3>🤖 Recomendações Inteligentes</h3>
 
             <p>
-              Sugestões personalizadas baseadas no histórico alimentar
-              e no comportamento do usuário.
+              Sugestões personalizadas com base no histórico alimentar
+              e nos objetivos definidos pelo usuário.
+            </p>
+          </div>
+
+          <div className="box">
+            <h3>📈 Histórico Alimentar</h3>
+
+            <p>
+              Registro do consumo diário de carboidratos e das refeições,
+              permitindo acompanhar a evolução dos hábitos alimentares ao
+              longo do tempo.
             </p>
           </div>
 
         </div>
 
       </section>
-
     </div>
   );
 }
